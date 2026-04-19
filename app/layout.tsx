@@ -21,33 +21,33 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Heritage Leather Co. | Premium Leather Goods',
-    template: '%s | Heritage Leather Co.',
+    default: 'Adham | Premium Leather Goods',
+    template: '%s | Adham',
   },
-  description: 'Discover premium, handcrafted leather goods made from full-grain leather. Boots, bags, jackets, and accessories built to last a lifetime.',
-  keywords: ['premium leather boots', 'full grain leather bags', 'handmade leather goods', 'leather jackets', 'leather accessories'],
-  authors: [{ name: 'Heritage Leather Co.' }],
-  creator: 'Heritage Leather Co.',
+  description: 'Discover Adham — premium, handcrafted leather goods made from full-grain leather. Bags, wallets, belts, and accessories built to last a lifetime.',
+  keywords: ['Adham leather', 'premium leather bags', 'full grain leather', 'handmade leather goods', 'leather accessories'],
+  authors: [{ name: 'Adham' }],
+  creator: 'Adham',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://heritageleather.co',
-    siteName: 'Heritage Leather Co.',
-    title: 'Heritage Leather Co. | Premium Leather Goods',
-    description: 'Discover premium, handcrafted leather goods made from full-grain leather.',
+    url: 'https://adhamleather.com',
+    siteName: 'Adham',
+    title: 'Adham | Premium Leather Goods',
+    description: 'Discover Adham — premium, handcrafted leather goods made from full-grain leather.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heritage Leather Co.',
+        alt: 'Adham — Premium Leather Goods',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Heritage Leather Co. | Premium Leather Goods',
-    description: 'Discover premium, handcrafted leather goods made from full-grain leather.',
+    title: 'Adham | Premium Leather Goods',
+    description: 'Discover Adham — premium, handcrafted leather goods made from full-grain leather.',
     images: ['/og-image.jpg'],
   },
   robots: {

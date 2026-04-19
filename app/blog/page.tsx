@@ -6,9 +6,9 @@ import { blogPosts } from '@/lib/data/products'
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'Discover leather care tips, style guides, and expert advice from Heritage Leather Co. Learn how to care for your leather goods and make informed purchasing decisions.',
+  description: 'Discover leather care tips, style guides, and expert advice from Adham. Learn how to care for your leather goods and make informed purchasing decisions.',
   openGraph: {
-    title: 'Blog | Heritage Leather Co.',
+    title: 'Blog | Adham',
     description: 'Leather care tips, style guides, and expert advice.',
   },
 }

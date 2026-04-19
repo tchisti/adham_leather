@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.excerpt,
     openGraph: {
-      title: `${post.title} | Heritage Leather Co.`,
+      title: `${post.title} | Adham`,
       description: post.excerpt,
       images: [{ url: post.image }],
     },
@@ -71,7 +71,7 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="mt-6 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="h-10 w-10 rounded-full bg-muted flex items-center justify-center">
-                <span className="font-medium text-foreground">HT</span>
+                <span className="font-medium text-foreground">AD</span>
               </div>
               <span>{post.author}</span>
             </div>
@@ -118,7 +118,7 @@ export default async function BlogPostPage({ params }: Props) {
           <h2>Understanding Your Leather</h2>
           <p>
             Not all leather is created equal. Full-grain leather, which we use
-            exclusively at Heritage Leather Co., is the highest quality leather
+            exclusively at Adham, is the highest quality leather
             available. It includes the entire grain surface, which has not been
             sanded, buffed, or snuffed to remove imperfections.
           </p>
@@ -157,7 +157,7 @@ export default async function BlogPostPage({ params }: Props) {
           <p>
             Taking care of your leather goods doesn&apos;t have to be complicated. With
             regular conditioning, proper storage, and attention to detail, your
-            Heritage Leather Co. products will serve you well for decades to come.
+            Adham products will serve you well for decades to come.
           </p>
         </div>
 

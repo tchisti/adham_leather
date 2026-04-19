@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: product.name,
     description: product.shortDescription,
     openGraph: {
-      title: `${product.name} | Heritage Leather Co.`,
+      title: `${product.name} | Adham`,
       description: product.shortDescription,
       images: product.images.map((image) => ({ url: image })),
     },

@@ -61,7 +61,7 @@ export function NewsletterSection() {
                 <CheckCircle2 className="h-8 w-8 text-secondary-foreground" />
               </div>
               <p className="mt-4 text-lg font-medium text-white">
-                Welcome to the Heritage family!
+                Welcome to the Adham circle!
               </p>
               <p className="text-white/70">
                 Check your email for your discount code.

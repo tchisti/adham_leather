@@ -9,6 +9,7 @@ import { useTheme } from 'next-themes'
 import { Button } from '@/components/ui/button'
 import { useCart } from '@/lib/cart-context'
 import { CartDrawer } from '@/components/cart/cart-drawer'
+import { Logo } from '@/components/brand/logo'
 import { cn } from '@/lib/utils'
 
 const navigation = [
@@ -73,11 +74,7 @@ export function Header() {
 
             {/* Logo */}
             <div className="flex flex-1 items-center justify-center lg:justify-start">
-              <Link href="/" className="flex items-center">
-                <span className="font-serif text-xl font-semibold tracking-tight lg:text-2xl">
-                  Heritage Leather Co.
-                </span>
-              </Link>
+              <Logo />
             </div>
 
             {/* Desktop navigation */}
