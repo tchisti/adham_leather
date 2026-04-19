@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Instagram, Facebook, Twitter, Youtube, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { Logo } from '@/components/brand/logo'
 
 const footerLinks = {
   shop: [
@@ -61,7 +62,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
           <div className="text-center lg:text-left">
             <h3 className="font-serif text-2xl font-semibold">
-              Join the Heritage Family
+              Join the Adham Circle
             </h3>
             <p className="mt-2 text-muted-foreground">
               Subscribe for exclusive offers and 10% off your first order.
@@ -105,11 +106,7 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
             {/* Brand column */}
             <div className="col-span-2 lg:col-span-1">
-              <Link href="/" className="inline-block">
-                <span className="font-serif text-xl font-semibold">
-                  Heritage Leather Co.
-                </span>
-              </Link>
+              <Logo />
               <p className="mt-4 text-sm text-muted-foreground">
                 Premium, handcrafted leather goods made from full-grain leather.
                 Built to last a lifetime.
@@ -188,8 +185,7 @@ export function Footer() {
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 sm:px-6 md:flex-row lg:px-8">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Heritage Leather Co. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Adham. All rights reserved.
           </p>
           <div className="flex gap-6">
             {footerLinks.legal.map((link) => (

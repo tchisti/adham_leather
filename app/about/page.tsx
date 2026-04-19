@@ -6,10 +6,10 @@ import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Heritage Leather Co. - our story, craftsmanship, and commitment to creating premium leather goods that last a lifetime.',
+  description: 'Learn about Adham — our story, craftsmanship, and commitment to creating premium leather goods that last a lifetime.',
   openGraph: {
-    title: 'About Us | Heritage Leather Co.',
-    description: 'Learn about our story and commitment to premium leather craftsmanship.',
+    title: 'About Us | Adham',
+    description: 'Learn about Adham and our commitment to premium leather craftsmanship.',
   },
 }
 
@@ -75,9 +75,9 @@ export default function AboutPage() {
                 Crafted with Purpose, Built to Last
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Heritage Leather Co. was born from a simple belief: that the things
-                we carry should be made to last. In a world of fast fashion and
-                disposable goods, we chose a different path.
+                Adham was born from a simple belief: that the things we carry
+                should be made to last. In a world of fast fashion and disposable
+                goods, we chose a different path.
               </p>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
                 Every stitch, every cut, every piece of hardware is chosen with
@@ -222,7 +222,7 @@ export default function AboutPage() {
               Our Journey
             </span>
             <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-4xl">
-              Building Heritage
+              Building Adham
             </h2>
           </div>
 
@@ -265,7 +265,7 @@ export default function AboutPage() {
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
             Join thousands of customers who have discovered the quality and
-            craftsmanship of Heritage Leather Co.
+            craftsmanship of Adham.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Button size="lg" className="gap-2" asChild>
