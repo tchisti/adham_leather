@@ -12,7 +12,7 @@ export function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=1920&q=80"
+          src="/images/Hero-background.png"
           alt="Premium leather boots"
           fill
           className="object-cover"
